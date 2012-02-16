@@ -1,8 +1,8 @@
 //
-//  RTAppDelegate.h
+//  MainMenuViewController.h
 //  RTQuiz
 //
-//  Created by C. A. Beninati on 2/16/12.
+//  Created by C. A. Beninati on 1/29/12.
 //  Copyright (c) 2012 C. A. Beninati. All rights reserved.
 //
 //	This file is part of RTQuiz.
@@ -22,23 +22,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GamePlayController.h"
 
-@class MainMenuViewController;
-
-@interface RTAppDelegate : UIResponder <UIApplicationDelegate> {
+@interface MainMenuViewController : UIViewController {
     
 @private
     SharedDataManager *sharedDataManager;
+    GamePlayController *sharedGamePlayController;
 }
 
-@property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) MainMenuViewController *mainMenuViewController;
-
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
+- (IBAction)didClickQuickplay;
+- (IBAction)didClickHighScores;
 
 @end

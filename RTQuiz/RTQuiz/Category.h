@@ -1,5 +1,5 @@
 //
-//  RTAppDelegate.h
+//  Category.h
 //  RTQuiz
 //
 //  Created by C. A. Beninati on 2/16/12.
@@ -20,25 +20,29 @@
 //	You should have received a copy of the GNU Lesser Public License
 //	along with RTQuiz.  If not, see <http://www.gnu.org/licenses/>.
 //
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-#import <UIKit/UIKit.h>
 
-@class MainMenuViewController;
+@interface Category : NSManagedObject
 
-@interface RTAppDelegate : UIResponder <UIApplicationDelegate> {
-    
-@private
-    SharedDataManager *sharedDataManager;
-}
+@property (nonatomic, retain) NSNumber * difficulty;
+@property (nonatomic, retain) NSString * name;
+@property (nonatomic, retain) NSManagedObject *topic;
+@property (nonatomic, retain) NSSet *scores;
+@property (nonatomic, retain) NSSet *quizzes;
+@end
 
-@property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) MainMenuViewController *mainMenuViewController;
+@interface Category (CoreDataGeneratedAccessors)
 
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+- (void)addScoresObject:(NSManagedObject *)value;
+- (void)removeScoresObject:(NSManagedObject *)value;
+- (void)addScores:(NSSet *)values;
+- (void)removeScores:(NSSet *)values;
 
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
+- (void)addQuizzesObject:(NSManagedObject *)value;
+- (void)removeQuizzesObject:(NSManagedObject *)value;
+- (void)addQuizzes:(NSSet *)values;
+- (void)removeQuizzes:(NSSet *)values;
 
 @end

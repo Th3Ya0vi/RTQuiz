@@ -1,8 +1,8 @@
 //
-//  RTAppDelegate.h
+//  HighScoresViewController.h
 //  RTQuiz
 //
-//  Created by C. A. Beninati on 2/16/12.
+//  Created by C. A. Beninati on 2/5/12.
 //  Copyright (c) 2012 C. A. Beninati. All rights reserved.
 //
 //	This file is part of RTQuiz.
@@ -23,22 +23,17 @@
 
 #import <UIKit/UIKit.h>
 
-@class MainMenuViewController;
-
-@interface RTAppDelegate : UIResponder <UIApplicationDelegate> {
+@interface HighScoresViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
     
 @private
     SharedDataManager *sharedDataManager;
 }
 
-@property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) MainMenuViewController *mainMenuViewController;
+@property (strong, nonatomic) IBOutlet UITableView *theTableView;
+@property (strong, nonatomic) NSArray *scoresArray;
 
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+- (IBAction)didClickClose;
 
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil category:(NSString*)categoryName;
 
 @end

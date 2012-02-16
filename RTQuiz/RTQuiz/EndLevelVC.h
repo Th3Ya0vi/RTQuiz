@@ -1,8 +1,8 @@
 //
-//  RTAppDelegate.h
+//  EndLevelVC.h
 //  RTQuiz
 //
-//  Created by C. A. Beninati on 2/16/12.
+//  Created by C. A. Beninati on 4/13/11.
 //  Copyright (c) 2012 C. A. Beninati. All rights reserved.
 //
 //	This file is part of RTQuiz.
@@ -22,23 +22,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GamePlayDelegate.h"
 
-@class MainMenuViewController;
-
-@interface RTAppDelegate : UIResponder <UIApplicationDelegate> {
+@interface EndLevelVC : UIViewController <UITextFieldDelegate> {
     
 @private
     SharedDataManager *sharedDataManager;
 }
 
-@property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) MainMenuViewController *mainMenuViewController;
+@property (strong) id<GamePlayDelegate> delegate;
 
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property (nonatomic, strong) IBOutlet UILabel *totalPointsLabel;
+@property (nonatomic, strong) IBOutlet UIButton *mainMenuButton;
 
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
+@property (nonatomic) int score;
+@property (nonatomic, strong) NSString *category;
+
+- (void)setScoreLabel:(int)theScore;
+- (IBAction)didClickMainMenu;
 
 @end

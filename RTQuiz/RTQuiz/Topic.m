@@ -1,5 +1,5 @@
 //
-//  RTAppDelegate.h
+//  Topic.m
 //  RTQuiz
 //
 //  Created by C. A. Beninati on 2/16/12.
@@ -21,24 +21,13 @@
 //	along with RTQuiz.  If not, see <http://www.gnu.org/licenses/>.
 //
 
-#import <UIKit/UIKit.h>
+#import "Topic.h"
+#import "Category.h"
 
-@class MainMenuViewController;
 
-@interface RTAppDelegate : UIResponder <UIApplicationDelegate> {
-    
-@private
-    SharedDataManager *sharedDataManager;
-}
+@implementation Topic
 
-@property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) MainMenuViewController *mainMenuViewController;
-
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
+@dynamic name;
+@dynamic categories;
 
 @end

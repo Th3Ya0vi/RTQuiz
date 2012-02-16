@@ -1,5 +1,5 @@
 //
-//  RTAppDelegate.h
+//  Quiz.h
 //  RTQuiz
 //
 //  Created by C. A. Beninati on 2/16/12.
@@ -21,24 +21,23 @@
 //	along with RTQuiz.  If not, see <http://www.gnu.org/licenses/>.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-@class MainMenuViewController;
+@class Category, Element;
 
-@interface RTAppDelegate : UIResponder <UIApplicationDelegate> {
-    
-@private
-    SharedDataManager *sharedDataManager;
-}
+@interface Quiz : NSManagedObject
 
-@property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) MainMenuViewController *mainMenuViewController;
+@property (nonatomic, retain) NSString * name;
+@property (nonatomic, retain) Category *category;
+@property (nonatomic, retain) NSSet *elements;
+@end
 
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@interface Quiz (CoreDataGeneratedAccessors)
 
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
+- (void)addElementsObject:(Element *)value;
+- (void)removeElementsObject:(Element *)value;
+- (void)addElements:(NSSet *)values;
+- (void)removeElements:(NSSet *)values;
 
 @end

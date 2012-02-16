@@ -1,8 +1,8 @@
 //
-//  RTAppDelegate.h
+//  EndStageVC.h
 //  RTQuiz
 //
-//  Created by C. A. Beninati on 2/16/12.
+//  Created by C. A. Beninati on 4/13/11.
 //  Copyright (c) 2012 C. A. Beninati. All rights reserved.
 //
 //	This file is part of RTQuiz.
@@ -22,23 +22,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GamePlayDelegate.h"
 
-@class MainMenuViewController;
+@interface EndStageVC : UIViewController
 
-@interface RTAppDelegate : UIResponder <UIApplicationDelegate> {
-    
-@private
-    SharedDataManager *sharedDataManager;
-}
+@property (strong, nonatomic) IBOutlet UILabel *currentStageLabel;
+@property (strong, nonatomic) IBOutlet UILabel *pointsLabel;
+@property (strong, nonatomic) IBOutlet UILabel *timeBonusLabel;
+@property (strong, nonatomic) IBOutlet UILabel *totalPointsLabel;
 
-@property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) MainMenuViewController *mainMenuViewController;
+@property (strong, nonatomic) IBOutlet UIButton *mainMenuButton;
+@property (strong, nonatomic) IBOutlet UIButton *nextStageButton;
 
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property (strong) id<GamePlayDelegate> delegate;
 
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
+- (IBAction)didClickMainMenu;
+- (IBAction)didClickNextStage;
+
+- (void)setLabelsForStage:(int)stage withPoints:(int)points withBonus:(int)bonus;
 
 @end
