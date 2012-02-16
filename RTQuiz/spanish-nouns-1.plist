@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>the bathroom</key>
+	<string>el baño</string>
+	<key>the soap</key>
+	<string>el jabón</string>
+	<key>the sponge</key>
+	<string>la esponja</string>
+	<key>the towel</key>
+	<string>la toalla</string>
+	<key>the apple</key>
+	<string>la manzana</string>
+	<key>the banana</key>
+	<string>el plátano</string>
+	<key>the lemon</key>
+	<string>el limón</string>
+	<key>the pineapple</key>
+	<string>la piña</string>
+	<key>the strawberry</key>
+	<string>la fresa</string>
+	<key>the tomato</key>
+	<string>el tomate</string>
+	<key>the glass</key>
+	<string>el vaso</string>
+	<key>the spoon</key>
+	<string>la cuchara</string>
+	<key>the fork</key>
+	<string>el tenedor</string>
+	<key>the knife</key>
+	<string>el cuchillo</string>
+	<key>the napkin</key>
+	<string>la servilleta</string>
+</dict>
+</plist>

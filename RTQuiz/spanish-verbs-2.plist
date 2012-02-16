@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>to listen to</key>
+        <string>escuchar</string>
+        <key>to live</key>
+        <string>vivir</string>
+        <key>to look at</key>
+        <string>mirar</string>
+        <key>to look for</key>
+        <string>buscar</string>
+        <key>to need</key>
+        <string>necesitar</string>
+        <key>to put</key>
+        <string>poner</string>
+        <key>to run</key>
+        <string>correr</string>
+        <key>to sell</key>
+        <string>vender</string>
+        <key>to send</key>
+        <string>enviar</string>
+        <key>to sing</key>
+        <string>cantar</string>
+        <key>to sleep</key>
+        <string>dormir</string>
+        <key>to speak</key>
+        <string>hablar</string>
+        <key>to study</key>
+        <string>estudiar</string>
+        <key>to walk</key>
+        <string>andar</string>
+        <key>to want</key>
+        <string>querer</string>
+    </dict>
+</plist>
