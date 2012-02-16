@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95D422AD14ED5DBD00A80137 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D422AC14ED5DBD00A80137 /* UIKit.framework */; };
+		95D422AF14ED5DBD00A80137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D422AE14ED5DBD00A80137 /* Foundation.framework */; };
+		95D422B114ED5DBD00A80137 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D422B014ED5DBD00A80137 /* CoreGraphics.framework */; };
+		95D422B314ED5DBD00A80137 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D422B214ED5DBD00A80137 /* CoreData.framework */; };
+		95D422B914ED5DBD00A80137 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95D422B714ED5DBD00A80137 /* InfoPlist.strings */; };
+		95D422BB14ED5DBD00A80137 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422BA14ED5DBD00A80137 /* main.m */; };
+		95D422BF14ED5DBD00A80137 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422BE14ED5DBD00A80137 /* RTAppDelegate.m */; };
+		95D422C214ED5DBD00A80137 /* RTQuiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95D422C014ED5DBD00A80137 /* RTQuiz.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95D422A814ED5DBD00A80137 /* RTQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D422AC14ED5DBD00A80137 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95D422AE14ED5DBD00A80137 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95D422B014ED5DBD00A80137 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95D422B214ED5DBD00A80137 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		95D422B614ED5DBD00A80137 /* RTQuiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTQuiz-Info.plist"; sourceTree = "<group>"; };
+		95D422B814ED5DBD00A80137 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95D422BA14ED5DBD00A80137 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95D422BC14ED5DBD00A80137 /* RTQuiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTQuiz-Prefix.pch"; sourceTree = "<group>"; };
+		95D422BD14ED5DBD00A80137 /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		95D422BE14ED5DBD00A80137 /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		95D422C114ED5DBD00A80137 /* RTQuiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RTQuiz.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95D422A514ED5DBD00A80137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D422AD14ED5DBD00A80137 /* UIKit.framework in Frameworks */,
+				95D422AF14ED5DBD00A80137 /* Foundation.framework in Frameworks */,
+				95D422B114ED5DBD00A80137 /* CoreGraphics.framework in Frameworks */,
+				95D422B314ED5DBD00A80137 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95D4229D14ED5DBD00A80137 = {
+			isa = PBXGroup;
+			children = (
+				95D422B414ED5DBD00A80137 /* RTQuiz */,
+				95D422AB14ED5DBD00A80137 /* Frameworks */,
+				95D422A914ED5DBD00A80137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95D422A914ED5DBD00A80137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95D422A814ED5DBD00A80137 /* RTQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95D422AB14ED5DBD00A80137 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95D422AC14ED5DBD00A80137 /* UIKit.framework */,
+				95D422AE14ED5DBD00A80137 /* Foundation.framework */,
+				95D422B014ED5DBD00A80137 /* CoreGraphics.framework */,
+				95D422B214ED5DBD00A80137 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95D422B414ED5DBD00A80137 /* RTQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				95D422BD14ED5DBD00A80137 /* RTAppDelegate.h */,
+				95D422BE14ED5DBD00A80137 /* RTAppDelegate.m */,
+				95D422C014ED5DBD00A80137 /* RTQuiz.xcdatamodeld */,
+				95D422B514ED5DBD00A80137 /* Supporting Files */,
+			);
+			path = RTQuiz;
+			sourceTree = "<group>";
+		};
+		95D422B514ED5DBD00A80137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95D422B614ED5DBD00A80137 /* RTQuiz-Info.plist */,
+				95D422B714ED5DBD00A80137 /* InfoPlist.strings */,
+				95D422BA14ED5DBD00A80137 /* main.m */,
+				95D422BC14ED5DBD00A80137 /* RTQuiz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95D422A714ED5DBD00A80137 /* RTQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D422C514ED5DBD00A80137 /* Build configuration list for PBXNativeTarget "RTQuiz" */;
+			buildPhases = (
+				95D422A414ED5DBD00A80137 /* Sources */,
+				95D422A514ED5DBD00A80137 /* Frameworks */,
+				95D422A614ED5DBD00A80137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTQuiz;
+			productName = RTQuiz;
+			productReference = 95D422A814ED5DBD00A80137 /* RTQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95D4229F14ED5DBD00A80137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 95D422A214ED5DBD00A80137 /* Build configuration list for PBXProject "RTQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95D4229D14ED5DBD00A80137;
+			productRefGroup = 95D422A914ED5DBD00A80137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95D422A714ED5DBD00A80137 /* RTQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95D422A614ED5DBD00A80137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D422B914ED5DBD00A80137 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95D422A414ED5DBD00A80137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D422BB14ED5DBD00A80137 /* main.m in Sources */,
+				95D422BF14ED5DBD00A80137 /* RTAppDelegate.m in Sources */,
+				95D422C214ED5DBD00A80137 /* RTQuiz.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95D422B714ED5DBD00A80137 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D422B814ED5DBD00A80137 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95D422C314ED5DBD00A80137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95D422C414ED5DBD00A80137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95D422C614ED5DBD00A80137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTQuiz/RTQuiz-Prefix.pch";
+				INFOPLIST_FILE = "RTQuiz/RTQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95D422C714ED5DBD00A80137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTQuiz/RTQuiz-Prefix.pch";
+				INFOPLIST_FILE = "RTQuiz/RTQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95D422A214ED5DBD00A80137 /* Build configuration list for PBXProject "RTQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D422C314ED5DBD00A80137 /* Debug */,
+				95D422C414ED5DBD00A80137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D422C514ED5DBD00A80137 /* Build configuration list for PBXNativeTarget "RTQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D422C614ED5DBD00A80137 /* Debug */,
+				95D422C714ED5DBD00A80137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95D422C014ED5DBD00A80137 /* RTQuiz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95D422C114ED5DBD00A80137 /* RTQuiz.xcdatamodel */,
+			);
+			currentVersion = 95D422C114ED5DBD00A80137 /* RTQuiz.xcdatamodel */;
+			path = RTQuiz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95D4229F14ED5DBD00A80137 /* Project object */;
+}
