@@ -15,6 +15,39 @@
 		95D422BB14ED5DBD00A80137 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422BA14ED5DBD00A80137 /* main.m */; };
 		95D422BF14ED5DBD00A80137 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422BE14ED5DBD00A80137 /* RTAppDelegate.m */; };
 		95D422C214ED5DBD00A80137 /* RTQuiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95D422C014ED5DBD00A80137 /* RTQuiz.xcdatamodeld */; };
+		95D422DC14ED5E5D00A80137 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422C914ED5E5D00A80137 /* MainMenuViewController.m */; };
+		95D422DD14ED5E5D00A80137 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D422CA14ED5E5D00A80137 /* MainMenuViewController.xib */; };
+		95D422DF14ED5E5D00A80137 /* QuizElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422CE14ED5E5D00A80137 /* QuizElement.m */; };
+		95D422E114ED5E5D00A80137 /* SharedDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422D214ED5E5D00A80137 /* SharedDataManager.m */; };
+		95D422E214ED5E5D00A80137 /* spanish-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95D422D314ED5E5D00A80137 /* spanish-1.plist */; };
+		95D422E314ED5E5D00A80137 /* spanish-colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95D422D414ED5E5D00A80137 /* spanish-colors.plist */; };
+		95D422E414ED5E5D00A80137 /* spanish-nouns-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95D422D514ED5E5D00A80137 /* spanish-nouns-1.plist */; };
+		95D422E514ED5E5D00A80137 /* spanish-verbs-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95D422D614ED5E5D00A80137 /* spanish-verbs-1.plist */; };
+		95D422E614ED5E5D00A80137 /* spanish-verbs-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95D422D714ED5E5D00A80137 /* spanish-verbs-2.plist */; };
+		95D422E814ED5E5D00A80137 /* Wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D422DB14ED5E5D00A80137 /* Wrong.png */; };
+		95D4230014ED5E7B00A80137 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422EA14ED5E7B00A80137 /* CustomCell.m */; };
+		95D4230114ED5E7B00A80137 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D422EB14ED5E7B00A80137 /* CustomCell.xib */; };
+		95D4230314ED5E7B00A80137 /* EndLevelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422EF14ED5E7B00A80137 /* EndLevelVC.m */; };
+		95D4230414ED5E7B00A80137 /* EndLevelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D422F014ED5E7B00A80137 /* EndLevelVC.xib */; };
+		95D4230514ED5E7B00A80137 /* EndStageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422F214ED5E7B00A80137 /* EndStageVC.m */; };
+		95D4230614ED5E7B00A80137 /* EndStageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D422F314ED5E7B00A80137 /* EndStageVC.xib */; };
+		95D4230714ED5E7B00A80137 /* GamePlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422F514ED5E7B00A80137 /* GamePlayController.m */; };
+		95D4230814ED5E7B00A80137 /* GamePlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422F814ED5E7B00A80137 /* GamePlayVC.m */; };
+		95D4230914ED5E7B00A80137 /* GamePlayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D422F914ED5E7B00A80137 /* GamePlayVC.xib */; };
+		95D4230C14ED5E7B00A80137 /* HighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D422FE14ED5E7B00A80137 /* HighScoresViewController.m */; };
+		95D4230D14ED5E7B00A80137 /* HighScoresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D422FF14ED5E7B00A80137 /* HighScoresViewController.xib */; };
+		95D4231B14ED5F7F00A80137 /* Correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D4231A14ED5F7F00A80137 /* Correct.png */; };
+		95D4231E14ED64C800A80137 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D4231D14ED64C800A80137 /* Category.m */; };
+		95D4232114ED64C800A80137 /* Element.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D4232014ED64C800A80137 /* Element.m */; };
+		95D4232414ED64C800A80137 /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D4232314ED64C800A80137 /* Quiz.m */; };
+		95D4232714ED64C800A80137 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D4232614ED64C800A80137 /* Score.m */; };
+		95D4232A14ED64C900A80137 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D4232914ED64C900A80137 /* Topic.m */; };
+		95D4232F14ED652E00A80137 /* cross-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D4232B14ED652E00A80137 /* cross-pressed.png */; };
+		95D4233014ED652E00A80137 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D4232C14ED652E00A80137 /* cross.png */; };
+		95D4233114ED652E00A80137 /* cross@2x-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D4232D14ED652E00A80137 /* cross@2x-pressed.png */; };
+		95D4233214ED652E00A80137 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D4232E14ED652E00A80137 /* cross@2x.png */; };
+		95D4233514ED65C800A80137 /* background-plain.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D4233314ED65C800A80137 /* background-plain.png */; };
+		95D4233614ED65C800A80137 /* background-plain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95D4233414ED65C800A80137 /* background-plain@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +63,55 @@
 		95D422BD14ED5DBD00A80137 /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
 		95D422BE14ED5DBD00A80137 /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
 		95D422C114ED5DBD00A80137 /* RTQuiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RTQuiz.xcdatamodel; sourceTree = "<group>"; };
+		95D422C814ED5E5D00A80137 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MainMenuViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		95D422C914ED5E5D00A80137 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MainMenuViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		95D422CA14ED5E5D00A80137 /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		95D422CD14ED5E5D00A80137 /* QuizElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizElement.h; sourceTree = "<group>"; };
+		95D422CE14ED5E5D00A80137 /* QuizElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizElement.m; sourceTree = "<group>"; };
+		95D422D114ED5E5D00A80137 /* SharedDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedDataManager.h; sourceTree = "<group>"; };
+		95D422D214ED5E5D00A80137 /* SharedDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedDataManager.m; sourceTree = "<group>"; };
+		95D422D314ED5E5D00A80137 /* spanish-1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "spanish-1.plist"; sourceTree = "<group>"; };
+		95D422D414ED5E5D00A80137 /* spanish-colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "spanish-colors.plist"; sourceTree = "<group>"; };
+		95D422D514ED5E5D00A80137 /* spanish-nouns-1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "spanish-nouns-1.plist"; sourceTree = "<group>"; };
+		95D422D614ED5E5D00A80137 /* spanish-verbs-1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "spanish-verbs-1.plist"; sourceTree = "<group>"; };
+		95D422D714ED5E5D00A80137 /* spanish-verbs-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "spanish-verbs-2.plist"; sourceTree = "<group>"; };
+		95D422D814ED5E5D00A80137 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		95D422DB14ED5E5D00A80137 /* Wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wrong.png; sourceTree = "<group>"; };
+		95D422E914ED5E7B00A80137 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		95D422EA14ED5E7B00A80137 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		95D422EB14ED5E7B00A80137 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		95D422EE14ED5E7B00A80137 /* EndLevelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = EndLevelVC.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		95D422EF14ED5E7B00A80137 /* EndLevelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EndLevelVC.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		95D422F014ED5E7B00A80137 /* EndLevelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EndLevelVC.xib; sourceTree = "<group>"; };
+		95D422F114ED5E7B00A80137 /* EndStageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = EndStageVC.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		95D422F214ED5E7B00A80137 /* EndStageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EndStageVC.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		95D422F314ED5E7B00A80137 /* EndStageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EndStageVC.xib; sourceTree = "<group>"; };
+		95D422F414ED5E7B00A80137 /* GamePlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GamePlayController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		95D422F514ED5E7B00A80137 /* GamePlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GamePlayController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		95D422F614ED5E7B00A80137 /* GamePlayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayDelegate.h; sourceTree = "<group>"; };
+		95D422F714ED5E7B00A80137 /* GamePlayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GamePlayVC.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		95D422F814ED5E7B00A80137 /* GamePlayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GamePlayVC.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		95D422F914ED5E7B00A80137 /* GamePlayVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamePlayVC.xib; sourceTree = "<group>"; };
+		95D422FD14ED5E7B00A80137 /* HighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = HighScoresViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		95D422FE14ED5E7B00A80137 /* HighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HighScoresViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		95D422FF14ED5E7B00A80137 /* HighScoresViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighScoresViewController.xib; sourceTree = "<group>"; };
+		95D4231A14ED5F7F00A80137 /* Correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Correct.png; sourceTree = "<group>"; };
+		95D4231C14ED64C800A80137 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		95D4231D14ED64C800A80137 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		95D4231F14ED64C800A80137 /* Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element.h; sourceTree = "<group>"; };
+		95D4232014ED64C800A80137 /* Element.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Element.m; sourceTree = "<group>"; };
+		95D4232214ED64C800A80137 /* Quiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz.h; sourceTree = "<group>"; };
+		95D4232314ED64C800A80137 /* Quiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz.m; sourceTree = "<group>"; };
+		95D4232514ED64C800A80137 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		95D4232614ED64C800A80137 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		95D4232814ED64C900A80137 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		95D4232914ED64C900A80137 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
+		95D4232B14ED652E00A80137 /* cross-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross-pressed.png"; sourceTree = "<group>"; };
+		95D4232C14ED652E00A80137 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		95D4232D14ED652E00A80137 /* cross@2x-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x-pressed.png"; sourceTree = "<group>"; };
+		95D4232E14ED652E00A80137 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		95D4233314ED65C800A80137 /* background-plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-plain.png"; sourceTree = "<group>"; };
+		95D4233414ED65C800A80137 /* background-plain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-plain@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +162,16 @@
 			children = (
 				95D422BD14ED5DBD00A80137 /* RTAppDelegate.h */,
 				95D422BE14ED5DBD00A80137 /* RTAppDelegate.m */,
-				95D422C014ED5DBD00A80137 /* RTQuiz.xcdatamodeld */,
+				95D422C814ED5E5D00A80137 /* MainMenuViewController.h */,
+				95D422C914ED5E5D00A80137 /* MainMenuViewController.m */,
+				95D422CA14ED5E5D00A80137 /* MainMenuViewController.xib */,
+				95D4231614ED5EC800A80137 /* Gameplay */,
+				95D422FD14ED5E7B00A80137 /* HighScoresViewController.h */,
+				95D422FE14ED5E7B00A80137 /* HighScoresViewController.m */,
+				95D422FF14ED5E7B00A80137 /* HighScoresViewController.xib */,
+				95D4231714ED5EF300A80137 /* Data Management */,
+				95D4231914ED5F5700A80137 /* Game Assets */,
+				95D4231814ED5F2900A80137 /* Resources */,
 				95D422B514ED5DBD00A80137 /* Supporting Files */,
 			);
 			path = RTQuiz;
@@ -95,6 +186,86 @@
 				95D422BC14ED5DBD00A80137 /* RTQuiz-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95D4231514ED5E9B00A80137 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				95D4232814ED64C900A80137 /* Topic.h */,
+				95D4232914ED64C900A80137 /* Topic.m */,
+				95D4232514ED64C800A80137 /* Score.h */,
+				95D4232614ED64C800A80137 /* Score.m */,
+				95D4232214ED64C800A80137 /* Quiz.h */,
+				95D4232314ED64C800A80137 /* Quiz.m */,
+				95D4231F14ED64C800A80137 /* Element.h */,
+				95D4232014ED64C800A80137 /* Element.m */,
+				95D4231C14ED64C800A80137 /* Category.h */,
+				95D4231D14ED64C800A80137 /* Category.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		95D4231614ED5EC800A80137 /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				95D422F414ED5E7B00A80137 /* GamePlayController.h */,
+				95D422F514ED5E7B00A80137 /* GamePlayController.m */,
+				95D422F614ED5E7B00A80137 /* GamePlayDelegate.h */,
+				95D422F714ED5E7B00A80137 /* GamePlayVC.h */,
+				95D422F814ED5E7B00A80137 /* GamePlayVC.m */,
+				95D422F914ED5E7B00A80137 /* GamePlayVC.xib */,
+				95D422EE14ED5E7B00A80137 /* EndLevelVC.h */,
+				95D422EF14ED5E7B00A80137 /* EndLevelVC.m */,
+				95D422F014ED5E7B00A80137 /* EndLevelVC.xib */,
+				95D422F114ED5E7B00A80137 /* EndStageVC.h */,
+				95D422F214ED5E7B00A80137 /* EndStageVC.m */,
+				95D422F314ED5E7B00A80137 /* EndStageVC.xib */,
+			);
+			name = Gameplay;
+			sourceTree = "<group>";
+		};
+		95D4231714ED5EF300A80137 /* Data Management */ = {
+			isa = PBXGroup;
+			children = (
+				95D422D114ED5E5D00A80137 /* SharedDataManager.h */,
+				95D422D214ED5E5D00A80137 /* SharedDataManager.m */,
+				95D422CD14ED5E5D00A80137 /* QuizElement.h */,
+				95D422CE14ED5E5D00A80137 /* QuizElement.m */,
+				95D422C014ED5DBD00A80137 /* RTQuiz.xcdatamodeld */,
+				95D4231514ED5E9B00A80137 /* Core Data */,
+			);
+			name = "Data Management";
+			sourceTree = "<group>";
+		};
+		95D4231814ED5F2900A80137 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95D422D314ED5E5D00A80137 /* spanish-1.plist */,
+				95D422D414ED5E5D00A80137 /* spanish-colors.plist */,
+				95D422D514ED5E5D00A80137 /* spanish-nouns-1.plist */,
+				95D422D614ED5E5D00A80137 /* spanish-verbs-1.plist */,
+				95D422D714ED5E5D00A80137 /* spanish-verbs-2.plist */,
+				95D422D814ED5E5D00A80137 /* SynthesizeSingleton.h */,
+				95D422E914ED5E7B00A80137 /* CustomCell.h */,
+				95D422EA14ED5E7B00A80137 /* CustomCell.m */,
+				95D422EB14ED5E7B00A80137 /* CustomCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		95D4231914ED5F5700A80137 /* Game Assets */ = {
+			isa = PBXGroup;
+			children = (
+				95D4233314ED65C800A80137 /* background-plain.png */,
+				95D4233414ED65C800A80137 /* background-plain@2x.png */,
+				95D4232B14ED652E00A80137 /* cross-pressed.png */,
+				95D4232C14ED652E00A80137 /* cross.png */,
+				95D4232D14ED652E00A80137 /* cross@2x-pressed.png */,
+				95D4232E14ED652E00A80137 /* cross@2x.png */,
+				95D4231A14ED5F7F00A80137 /* Correct.png */,
+				95D422DB14ED5E5D00A80137 /* Wrong.png */,
+			);
+			name = "Game Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +319,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				95D422B914ED5DBD00A80137 /* InfoPlist.strings in Resources */,
+				95D422DD14ED5E5D00A80137 /* MainMenuViewController.xib in Resources */,
+				95D422E214ED5E5D00A80137 /* spanish-1.plist in Resources */,
+				95D422E314ED5E5D00A80137 /* spanish-colors.plist in Resources */,
+				95D422E414ED5E5D00A80137 /* spanish-nouns-1.plist in Resources */,
+				95D422E514ED5E5D00A80137 /* spanish-verbs-1.plist in Resources */,
+				95D422E614ED5E5D00A80137 /* spanish-verbs-2.plist in Resources */,
+				95D422E814ED5E5D00A80137 /* Wrong.png in Resources */,
+				95D4230114ED5E7B00A80137 /* CustomCell.xib in Resources */,
+				95D4230414ED5E7B00A80137 /* EndLevelVC.xib in Resources */,
+				95D4230614ED5E7B00A80137 /* EndStageVC.xib in Resources */,
+				95D4230914ED5E7B00A80137 /* GamePlayVC.xib in Resources */,
+				95D4230D14ED5E7B00A80137 /* HighScoresViewController.xib in Resources */,
+				95D4231B14ED5F7F00A80137 /* Correct.png in Resources */,
+				95D4232F14ED652E00A80137 /* cross-pressed.png in Resources */,
+				95D4233014ED652E00A80137 /* cross.png in Resources */,
+				95D4233114ED652E00A80137 /* cross@2x-pressed.png in Resources */,
+				95D4233214ED652E00A80137 /* cross@2x.png in Resources */,
+				95D4233514ED65C800A80137 /* background-plain.png in Resources */,
+				95D4233614ED65C800A80137 /* background-plain@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +351,20 @@
 				95D422BB14ED5DBD00A80137 /* main.m in Sources */,
 				95D422BF14ED5DBD00A80137 /* RTAppDelegate.m in Sources */,
 				95D422C214ED5DBD00A80137 /* RTQuiz.xcdatamodeld in Sources */,
+				95D422DC14ED5E5D00A80137 /* MainMenuViewController.m in Sources */,
+				95D422DF14ED5E5D00A80137 /* QuizElement.m in Sources */,
+				95D422E114ED5E5D00A80137 /* SharedDataManager.m in Sources */,
+				95D4230014ED5E7B00A80137 /* CustomCell.m in Sources */,
+				95D4230314ED5E7B00A80137 /* EndLevelVC.m in Sources */,
+				95D4230514ED5E7B00A80137 /* EndStageVC.m in Sources */,
+				95D4230714ED5E7B00A80137 /* GamePlayController.m in Sources */,
+				95D4230814ED5E7B00A80137 /* GamePlayVC.m in Sources */,
+				95D4230C14ED5E7B00A80137 /* HighScoresViewController.m in Sources */,
+				95D4231E14ED64C800A80137 /* Category.m in Sources */,
+				95D4232114ED64C800A80137 /* Element.m in Sources */,
+				95D4232414ED64C800A80137 /* Quiz.m in Sources */,
+				95D4232714ED64C800A80137 /* Score.m in Sources */,
+				95D4232A14ED64C900A80137 /* Topic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +468,7 @@
 				95D422C714ED5DBD00A80137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
